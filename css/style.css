@@ -1382,6 +1382,9 @@ section .container {
   color: #fff;
   z-index: 999999;
 }
+.contact .info-box a{
+  transition: 0.3s;
+}
 .credits a {
   color: #ffc107;
   transition: 0.3s;
@@ -1398,6 +1401,7 @@ section .container {
   float: left;
   background: rgba(255, 255, 255, 0.1);
 }
+
 @media (max-width: 992px) {
   .credits {
     text-align: center;
